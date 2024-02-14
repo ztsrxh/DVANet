@@ -23,8 +23,8 @@ assessment of depth-wise performance.
 ### Create a virtual environment and activate it.
 
 ```
-conda create -n acvnet python=3.8
-conda activate acvnet
+conda create -n dvanet python=3.9
+conda activate dvanet
 ```
 ### Dependencies
 
@@ -70,13 +70,13 @@ python test.py --dataset 'rsrd' --loadckpt 'xxx.ckpt'
 | RAFT-Stereo | 0.17 | 0.43 | 0.17 |
 | ACVNet | 0.16 | 0.59 | 0.15 |
 | GwcNet | 0.16 | 0.57 | 0.14 |
-| DVANet | 0.15 | 0.34 | 0.14 |
+| DVANet(Ours) | 0.15 | 0.34 | 0.14 |
 
 ## Results on KITTI 2012 leaderboard
 [Leaderboard Link](https://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo)
 
 | Method | Noc (%) | All (%) | # Params (M) |
-|:-:|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|
 | HITNet | 1.41 | 1.89 | - |
 | GANet-15 | 1.36 | 1.80 | - |
 | RAFT-Stereo | 1.30 | 1.66 | 11.1 |
@@ -84,7 +84,7 @@ python test.py --dataset 'rsrd' --loadckpt 'xxx.ckpt'
 | AcfNet | 1.17 | 1.54 | 5.5 |
 | ACVNet | 1.13 | 1.47 | 7.1 |
 | IGEV-Stereo | 1.12 | 1.44 | 12.6 |
-| DVANet | 1.09 | 1.52 | 5.1 |
+| DVANet(Ours) | 1.09 | 1.52 | 5.1 |
 
 ## Point cloud visualization on RSRD
 
@@ -95,13 +95,7 @@ python test.py --dataset 'rsrd' --loadckpt 'xxx.ckpt'
 If you find this project helpful in your research, welcome to cite the paper.
 
 ```bibtex
-@inproceedings{xu2022attention,
-  title={Attention Concatenation Volume for Accurate and Efficient Stereo Matching},
-  author={Xu, Gangwei and Cheng, Junda and Guo, Peng and Yang, Xin},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={12981--12990},
-  year={2022}
-}
+
 
 ```
 
