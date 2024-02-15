@@ -2,7 +2,7 @@
 
 
 # DVANet
-This is the implementation of the paper: [Depth-aware Volume Attention for Texture-less Stereo Matching]().
+This is the implementation of the work: [Depth-aware Volume Attention for Texture-less Stereo Matching](https://arxiv.org/abs/2402.08931).
 
 ## Introduction
 Stereo matching in large texture-less scenarios with perspective effect is challenging. In this paper, taking road surface as a typical scenario, we reveal the performance decrease due to the texture deterioration in natural images.
@@ -95,7 +95,14 @@ python test.py --dataset 'rsrd' --loadckpt 'xxx.ckpt'
 If you find this project helpful in your research, welcome to cite the paper.
 
 ```bibtex
-
+@misc{zhao2024depthaware,
+      title={Depth-aware Volume Attention for Texture-less Stereo Matching}, 
+      author={Tong Zhao and Mingyu Ding and Wei Zhan and Masayoshi Tomizuka and Yintao Wei},
+      year={2024},
+      eprint={2402.08931},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 
 ```
 
