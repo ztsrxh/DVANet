@@ -59,7 +59,7 @@ python test.py --dataset 'rsrd' --loadckpt 'xxx.ckpt'
 
 ### Pretrained Model
 [RSRD](https://drive.google.com/file/d/1bWDII9H2xwyKU0rgED5l-P8vXeUymyCW/view?usp=sharing), 
-[Scene Flow](https://drive.google.com/file/d/1k3klSL3qmUTeRYW9SXuXFTcMhIOp7TF7/view?usp=sharing)
+[Scene Flow](https://drive.google.com/file/d/1qxtDyKbso-k5-sRuLMbqJMYdsg9OWf5-/view?usp=sharing)
 
 ## Results on RSRD
 | Method | EPE | >1px (%) | >2px (%) |
