@@ -36,7 +36,7 @@ pip install tqdm
 ```
 
 ## Data Preparation
-Download [RSRD](https://thu-rsxd.com/rsrd)(the subsets with half resolution), [Scene Flow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html), [KITTI 2012](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo), [KITTI 2015](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
+Download [RSRD](https://thu-rsxd.com/rsrd)(the dense subset with half resolution), [Scene Flow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html), [KITTI 2012](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo), [KITTI 2015](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
 
 ## Train
 Use the following command to train DVANet on Scene Flow
